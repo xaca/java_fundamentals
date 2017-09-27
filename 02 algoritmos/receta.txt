@@ -1,0 +1,26 @@
+Receta de Brownie (Solución sobre la cual trata el algoritmo)
+
+Receta para hacer un Brownie de forma sencilla y tradicional. Consigue hacer unos Brownies de los de toda la vida. 
+
+Ingredientes: (Declaración de variables)
+
+- 250 gramos de mantequilla sin sal
+- 125 gramos de harina de repostería
+- 225 gramos de azúcar
+- 150 gramos de chocolate para fundir
+- 4 Huevos L
+- 5 gramos de canela molida
+- 5 gramos de azúcar avainillada o un poco de esencia de vainilla
+
+Preparación: (Acciones y uso de variables)
+
+1. Lo primero que tenemos que hacer es fundir el chocolate para postres, hacerlo en una pequeña olla a fuego lento.  
+
+2. Una vez esté casi fundido del todo, añadimos la mantequilla cortada en dados, y derretimos junto con el chocolate, hasta que formen una mezcla perfecta. Apartamos este recipiente para volver a usarlo después. 
+
+3. En otro recipiente vamos a batir los huevos, añadiendo posteriormente el azúcar, y removiendo con la ayuda de una batidora, hasta que se forme una pasta blanquecina, con el azúcar bien integrado. Vertemos el contenido de este recipiente en el primero, y volvemos a mezclar bien con las varillas. Agrege también la canela y la vainilla o el azúcar avainillado. 
+
+4. Vamos a precalentar el horno a 180ºC, si no lo hemos hecho ya, para que alcance esa temperatura antes de meter el molde para el Brownie. Sobre el molde, podemos emplear uno de silicona, o bien forrar uno tradicional con papel vegetal, para evitar que se pegue la masa. 
+5. Vertemos la masa en el molde elegido, que metemos después en el horno durante unos 25-30 minutos, con el calor activado tanto arriba como abajo. Antes de que finalice ese tiemporevise el Brownie y compruebe que el interior está bien horneado. Un buen Brownie debe estar bien hecho por fuera y algo menos por dentro, para que tenga esa textura tan característica del mismo. 
+
+6. Una vez esté en su punto, lo dejamos enfriar y desmoldamos. Y ya podemos disfrutar de nuestro Brownie casero. 
