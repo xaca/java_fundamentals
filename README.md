@@ -26,4 +26,11 @@ In this course, you will learn the basics of #1 language in the World. *Java* is
 
 ## How to install an IDE
 First off what is an IDE? An IDE is a place for coders to change the code of the program they're
-working on. From the tiniest of projects to the largest you will need an IDE, which one you choose is up to you. For this tutorial we will be using [Eclipse](https://www.eclipse.org.)
+working on. From the tiniest of projects to the largest you will need an IDE, which one you choose is up to you. For this tutorial we will be using [Eclipse](https://www.eclipse.org), but there are plenty of other choices.
+
+###Download the IDE
+Step one is to go to the [download](https://www.eclipse.org/downloads/) link provided, and download the most up to date version of eclipse, at the time of this readme it is Eclipse Oxygen
+
+###Run through the setup
+1) Click "Eclipse IDE for Java Developers", this will install the IDE, a git (version control) client, and a couple of other editors for advanced Java development
+2) Change the install path (if you want to), click install, and then accept the terms and conditions
