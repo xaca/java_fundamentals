@@ -18,16 +18,16 @@ class LinkedList{
     Node head;
     Node tail;
 
-    public LinkedList(){
+    LinkedList(){
         head = null;
         tail = null;
     }
 
-    public LinkedList(String str){
+    LinkedList(String str){
         this.stringToLL(str);
     }
 
-    public void stringToLL(String str){
+    void stringToLL(String str){
         /* Converts a string to a LinkedList */
         head = null;
         char[] charArray = str.toCharArray();
@@ -36,7 +36,7 @@ class LinkedList{
         }
     }
 
-    public void addNodeAtEnd(char item){
+    void addNodeAtEnd(char item){
         /* Adds nodes at the ending of a linked list */
         Node node = new Node(item);
         if(head == null){
@@ -49,7 +49,7 @@ class LinkedList{
         tail = node;
     }
 
-    public void display(){
+    void display(){
         /* Prints the linked list */
         Node cur = head;
         while(cur != null){
@@ -59,7 +59,7 @@ class LinkedList{
         System.out.println("null");
     }
 
-    public static Node reverse(Node list){
+    static Node reverse(Node list){
         /* Recursive version of linked list reversal */
         if(!list.hasNext()){
             return list;
@@ -68,7 +68,7 @@ class LinkedList{
         return list;
     }
 
-    public static void reverse_wrapper(LinkedList list){
+    static void reverse_wrapper(LinkedList list){
         /* Wrapper to the recursive reversal function */
         Node cur = list.head;
         while(cur.hasNext()){
@@ -82,11 +82,11 @@ class LinkedList{
 public class LinkedListReversal {
     public static void main(String[] args){
         LinkedList list = new LinkedList("hellothere");
-		    System.out.println("Original List:");
-		    list.display(); 
+	System.out.println("Original List:");
+	list.display(); 
 		
         LinkedList.reverse_wrapper(list);
-		    System.out.println("\nReversed List:");
+	System.out.println("\nReversed List:");
         list.display();
     }
 }
