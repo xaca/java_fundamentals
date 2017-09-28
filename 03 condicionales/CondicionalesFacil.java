@@ -10,9 +10,10 @@ public class CondicionalesFacil {
 		edad = scanner.nextInt();
 		
 		/**
-		* Escribe una solucion logica con condicionales:
-		* Para que una persona pueda votar, esta debe tener una edad mayor (o igual) a 18 años
-		* Al finalizar el ejercicio, prueba tu programa introduciendo un numero
+		* Escribe una solucion logica con condicionales que:
+		* Interprete el numero introducido por el usuario, el cual es la edad de un individuo,
+		* Si el numero es mayor (o igual) a 18, este es capaz de votar, de lo contrario no lo es.
+		* Imprime un mensaje indicando su capacidad de votar.
 		*/
 		
 	}
