@@ -34,3 +34,9 @@ Step one is to go to the [download](https://www.eclipse.org/downloads/) link pro
 ### Run through the setup
 1) Click "Eclipse IDE for Java Developers", this will install the IDE, a git (version control) client, and a couple of other editors for advanced Java development
 2) Change the install path (if you want to), click install, and then accept the terms and conditions
+
+### Open Eclipse
+1) Launch eclipse however you launch other programs (on windows by opening the start menu and searching for eclipse), then click launch when asked about a workspace.
+2) Click file -> new and then name a new project whatever you want, then click finish
+3) Right click on your project in the left pane, hover over new, and select class. Name it "Main".
+4) Click finish and there you go! You can now do all of the examples in this repository!
