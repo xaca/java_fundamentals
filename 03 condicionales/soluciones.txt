@@ -1,0 +1,39 @@
+SOLUCIONES:
+
+- FACIL
+
+if (edad >= 18) {
+  System.out.println("El individuo es capaz de votar");
+} else {
+  System.out.println("El individuo no puede votar");
+}
+
+- MEDIO
+
+if (numero == 0) {
+  System.out.println("Cero");
+} else if (numero > 0) {
+  System.out.println("Positivo");
+  if (numero < 10) {
+    System.out.prinln("Pequeño");
+  } else if (numero > 100) {
+    System.out.println("Mayor");
+  }
+} else {
+  System.out.println("Negativo");
+}
+
+- DIFICIL
+
+int promedio = (examnPrimerTermino + examenMedioTermino + examenUltimoTermino) / 3;
+if (promedio >= 90) {
+  System.out.println("Puntuación A");
+} else if (promedio >= 70 && promedio < 90) {
+  System.out.println("Puntuación B");
+} else if (promedio >= 50 && promedio < 70) {
+  System.out.println("Puntuación C");
+} else if (promedio < 50) {
+  System.out.println("Puntuación F");
+} else {
+  System.out.println("Invalido");
+}
