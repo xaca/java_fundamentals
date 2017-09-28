@@ -17,21 +17,24 @@ public class TorresHanoi {
 		}else{
 			
 			/*
-			  En esta parte se mueven los discos que están arriba del disco n (el que está mas abajo y el más grande).
-			  Movemos todos estos discos (son n-1 discos) a la torre auxiliar usando la torre final como auxiliar.			  
+				En esta parte se mueven los discos que están arriba del disco n 
+				(el que está mas abajo y el más grande).
+				Movemos todos estos discos (son n-1 discos) a la torre auxiliar
+				usando la torre final como auxiliar.			  
 			  */
 			
 			resolver(numeroDeDiscos - 1, posicionInicial, posicionFinal, auxiliar);
 			
 			/*
-			  Cuando se mueven los n-1 discos que estan arriba del disco más grande, se puede mover el disco más grande a
-			  la posicion final.
+				Cuando se mueven los n-1 discos que estan arriba del disco más grande,
+				se puede mover el disco más grande a la posicion final.
 			  */
 			
 			System.out.println(posicionInicial + " -> " + posicionFinal);
 			
 			/*
-			  Luego tenemos que mover los n-1 discos que estan en la torre auxiliar a la torre final
+				Luego tenemos que mover los n-1 discos que estan en la torre auxiliar
+				a la torre final
 			  */
 			
 			resolver(numeroDeDiscos - 1, auxiliar, posicionInicial, posicionFinal);
