@@ -1,5 +1,5 @@
 # Fundamental of Java
-In this course, you will learn the basics of #1 language in the World. *Java* is tought as an introdutory language in CS courses all over the world. You will be among CS students from the best universities.
+In this course, you will learn the basics of #1 language in the World. *Java* is taught as an introductory language in CS courses all over the world. You will be among CS students from the best universities.
 
 ## Sections
 1. Introduction
@@ -23,3 +23,7 @@ In this course, you will learn the basics of #1 language in the World. *Java* is
 20. Pow
 
 [![Curso de programación básica en JAVA](https://img.youtube.com/vi/Ztr7_sNmSQI/0.jpg)](https://www.youtube.com/watch?v=Ztr7_sNmSQI&list=PLQ1ShaTNqthL1w5LSw5l7CbjCu5xiKQsA)
+
+## How to install an IDE
+First off what is an IDE? An IDE is a place for coders to change the code of the program they're
+working on. From the tiniest of projects to the largest you will need an IDE, which one you choose is up to you. For this tutorial we will be using [Eclipse](https://www.eclipse.org.)
