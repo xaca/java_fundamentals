@@ -12,10 +12,10 @@ public class CondicionalesMedio {
 		/**
 		* Escribe una solucion logica con condicionales que:
 		* Lea el numero introducido por el usuario e imprime,
-    * "Cero", si el numero es igual a cero,
-    * "Positivo" ó "Negativo" de acuerdo a su valor,
-    * "Pequeño" si el numero es menor que 10 y
-    * "Mayor" si el numero es mayor que 100.
+    		* "Cero", si el numero es igual a cero,
+    		* "Positivo" ó "Negativo" de acuerdo a su valor,
+    		* "Pequeño" si el numero es menor que 10 y
+    		* "Mayor" si el numero es mayor que 100.
 		*/
 		
 	}
