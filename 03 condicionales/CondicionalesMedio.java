@@ -1,6 +1,6 @@
 import java.util.*;
 
-/* Ejercicios con condicionales, NIVEL: FACIL */
+/* Ejercicios con condicionales, NIVEL: MEDIO */
 public class CondicionalesMedio {
 
 	public static void main(String[] args) {
