@@ -9,7 +9,7 @@ In this course, you will learn the basics of #1 language in the World. *Java* is
 5. Loops
 6. Arrays
 7. Matrix
-8. Chains
+8. Strings
 10. Functions/Methods
 11. Black Box
 12. White Box
@@ -19,7 +19,7 @@ In this course, you will learn the basics of #1 language in the World. *Java* is
 16. Fibonacci's Sequence
 17. Prime Numbers
 18. Magic Matrix
-19. Chains
+19. More about Strings
 20. Pow
 
 [![Curso de programación básica en JAVA](https://img.youtube.com/vi/Ztr7_sNmSQI/0.jpg)](https://www.youtube.com/watch?v=Ztr7_sNmSQI&list=PLQ1ShaTNqthL1w5LSw5l7CbjCu5xiKQsA)
