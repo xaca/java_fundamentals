@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class CajaBlanca{
 	public static void calcularPromedio(double datos[])
 	{
@@ -28,7 +29,13 @@ public class CajaBlanca{
 	}
 
 	public static void main(String[] args) {
-		//calcularPromedio(new double[]{3,4,5,6,7,8});
+		Scanner sc=new Scanner(System.in);
+		int numberOfValues = sc.nextInt();
+		double[] data= new double[numberOfValues];
+		for(int i=0;i<numberOfValues;i++){
+			data[i]=sc.nextDouble();
+		}
+		calcularPromedio(data);
 		System.out.println(factorial(14));
 	}
 }
