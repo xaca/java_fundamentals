@@ -28,8 +28,6 @@ public class Dec2BaseP {
 
         dec2BaseP(254,16); // Hexadecimal
         System.out.println();
-
-
     }
 
 
