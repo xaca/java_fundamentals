@@ -6,7 +6,7 @@ public class CondicionalesFacil {
 	public static void main(String[] args) {
 		int edad;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Cual es tu edad?")
+		System.out.println("Cual es tu edad?");
 		edad = scanner.nextInt();
 		
 		/**
