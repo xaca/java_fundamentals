@@ -12,7 +12,7 @@ public class Dec2BaseP {
     
     private static char digit2char(int digit) {
         if (digit<=9) return (char)('0'+digit);
-        else return (char)('A'+(char)digit);
+        else return (char)('A'+(char)(digit-10));
     }
 
 
@@ -26,6 +26,8 @@ public class Dec2BaseP {
         dec2BaseP(257,16); // Hexadecimal
         System.out.println();
 
+        dec2BaseP(254,16); // Hexadecimal
+        System.out.println();
     }
 
 
