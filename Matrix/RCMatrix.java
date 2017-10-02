@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class RCMatrix {
     /**
+     * There is another solution that exists and is of O(n^2) complexity
+     * This solution takes O(n) complexity
      * Searches the element x in mat[][]
      * where mat is a row and column square sorted matrix.
      * If the element is found, then prints its position
