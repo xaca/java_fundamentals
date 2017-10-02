@@ -60,6 +60,7 @@ public class Season {
 			break;
 		default:
 			season = "Invalid input.";
+			break;
 		}
 		return season;
 	}
