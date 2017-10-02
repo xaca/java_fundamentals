@@ -8,8 +8,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * @author shivanishirolkar Determines which season it is depending on month,
- *         which is entered by the user.
+ * Determines which season it is depending on month, which is entered by the
+ * user.
+ * 
+ * @author shivanishirolkar
  */
 public class Season {
 
@@ -37,25 +39,25 @@ public class Season {
 	 */
 	public static String determineSeason(String month) {
 		String season = null;
-		switch (month) {
-		case "November":
-		case "December":
-		case "January":
-		case "February":
+		switch (month.toLowerCase()) {
+		case "november":
+		case "december":
+		case "january":
+		case "february":
 			season = "It's winter.";
 			break;
-		case "March":
-		case "April":
+		case "march":
+		case "april":
 			season = "It's spring.";
 			break;
-		case "May":
-		case "June":
-		case "July":
-		case "August":
+		case "may":
+		case "june":
+		case "july":
+		case "august":
 			season = "It's summer.";
 			break;
-		case "September":
-		case "October":
+		case "september":
+		case "october":
 			season = "It's fall.";
 			break;
 		default:
