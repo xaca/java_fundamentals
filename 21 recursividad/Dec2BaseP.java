@@ -6,15 +6,10 @@ public class Dec2BaseP {
             int residue = decimal % p;
             decimal /= p;
             dec2BaseP(decimal,p);
-            System.out.print(digit2char(residue));
+            System.out.print(residue<=9 ? (char)('0'+residue) : (char)('A'+residue-10) );
         }
     }
     
-    private static char digit2char(int digit) {
-        if (digit<=9) return (char)('0'+digit);
-        else return (char)('A'+(char)(digit-10));
-    }
-
 
     public static void main(String[] args) {
         dec2BaseP(257,2); // Binary
