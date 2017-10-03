@@ -14,24 +14,26 @@ public class Matrix_Division_Multiplication {
 		System.out.println("Matrix Division");
 		
 		// First Matrix Creation..
-		row = 3;
-		column = 3;
+		System.out.println("\nEnter number of rows & columns");
+		row = Integer.parseInt(scan.nextLine());
+		column = Integer.parseInt(scan.nextLine());
 		
 		matrix1 = new int[row][column];
 		matrix2 = new int[row][column];
 		mtx = new int[row][column];
  
-		System.out.println("Enter the data for first 3x3 matrix :");
 		for(int i=0; i<row; i++) {
 			for(int j=0; j<column; j++) {
+				System.out.println("Enter the data for first matrix ["+i+"]"+"["+j+"]:");
 				matrix1[i][j] = scan.nextInt();
 			}
 		}
 		
 		// Second Matrix Creation..
-		System.out.println("Enter the data for second 3x3 matrix :");
+		
 		for(int i=0; i<row; i++) {
 			for(int j=0; j<column; j++) {
+				System.out.println("Enter the data for second matrix ["+i+"]"+"["+j+"]:");
 				matrix2[i][j] = scan.nextInt();
 			}
 		}
@@ -39,7 +41,7 @@ public class Matrix_Division_Multiplication {
 	
 	void display() {
 		
-		System.out.println("\nThe First 3x3 Matrix is :");
+		System.out.println("\nThe First Matrix is :");
 		for(int i=0; i<row; i++) {
 			for(int j=0; j<column; j++) {
 				System.out.print("\t" + matrix1[i][j]);
@@ -96,9 +98,9 @@ class MainClass {
 	public static void main(String args[]) {
 		
 		Matrix_Division_Multiplication obj = new Matrix_Division_Multiplication();
-		
 		obj.create();
 		obj.display();
 		obj.div();
+		obj.multi();
 	}
 }
