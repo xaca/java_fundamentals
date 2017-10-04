@@ -19,18 +19,28 @@ public class Vectores {
     }
     
 
-    static double distance(double[] a, double[] b) {
+    static double[] sub(double[] a, double[] b) {
+        // TODO: Left as an exercise    
+        return null;
+    }
+  
+
+    static double magnitude(double[] a) {
         // TODO: Left as an exercise    
         return 0;
     }
   
   
+  
+  
     static String arrayToString(double[] r) {
         StringBuilder sb = new StringBuilder();
         sb.append("( ");
-        for(int i=0; i<r.length; i++) {
-            if (i>0) sb.append(", ");
-            sb.append(r[i]);
+        if (r!=null) {
+            for(int i=0; i<r.length; i++) {
+                if (i>0) sb.append(", ");
+                sb.append(r[i]);
+            }
         }
         sb.append(")");
         return sb.toString();
@@ -48,9 +58,11 @@ public class Vectores {
         double dot = dot(a,b);
         System.out.println("The dot product is "+dot);
 
-        double distance = distance(a,b);
-        System.out.println("The distance between a and b is "+distance(a,b));
+        double difference[] = sub(a,b);
+        System.out.println("The difference between a and b is "+arrayToString(difference));
 
+        double mag = magnitude(a);
+        System.out.println("The magnitude of a is "+mag);
         
     }
      
