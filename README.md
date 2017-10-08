@@ -35,7 +35,17 @@ Go to the [Eclipse website](https://www.eclipse.org/downloads/) and download the
 2. Change the install path (if you want to), click install, then accept the terms and conditions.
 
 ### Open Eclipse
-1. Launch Eclipse. Click **Launch** when the program asks about a directory for the workspace.
-2. Click **File** -> **New** -> **Java Project**. Enter a name for your project, and click **Finish**.
-3. Right click on your project in the left pane, choose **New**, and select **Class**. Name it 'Main'.
-4. Click **Finish** and you're done! You can now do all of the examples in this repository!
+1) Launch Eclipse. Click 'Launch' when the program asks about a directory for the workspace.
+2) Click 'File' -> 'New' -> 'Java Project'. Enter a name for your project, and click 'Finish'.
+3) Right click on your project in the left pane, choose 'New', and select 'Class'. Name it 'Main'.
+4) Click 'Finish' and you're done! You can now do all of the examples in this repository!
+
+#### Other way to work with java without using IDE
+1.Download java jdk from the website install it in the host machine and install the path.
+2.Download a text editor(Sublime,Atom,etc) and start writing the code.
+3.open terminal go to the folder where your java code is saved and compile the file using the command javac classname.java.
+4.After succesfully compiling the code java will create a class file with name classname.class.
+5.Next step is to execute the file in the terminal,command for executing is java classname.
+6.Boom!! there is your output "Hello world!".
+
+
