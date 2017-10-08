@@ -39,4 +39,4 @@ Besuche die [Eclipse Webseite](https://www.eclipse.org/downloads/) und lade dir 
 2. Klicke **Datei** -> **Neu** -> **Java Projekt**. Gebe dann einen Namen für dein Projekt ein und drücke **Fertig**.
 3. Rechtsklicke auf dein Projekt, welches im linken Verzeichnisbaum angezeigt wird. Wähle dann **Neu** und drücke **Klasse**.
 Nenne die Klasse 'Main'.
-4. Klicke nun auf **Fertig** Nun hast du es geschafft! Du kannst jetzt mit allen Beispielen in diesem Repository arbeiten.
+4. Klicke nun auf **Fertig.** Nun hast du es geschafft! Du kannst jetzt mit allen Beispielen in diesem Repository arbeiten.
