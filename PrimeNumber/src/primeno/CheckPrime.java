@@ -32,7 +32,7 @@ public class CheckPrime {
 		String userInput = br.readLine();
 		try {
 			input = Integer.parseInt(userInput);
-			if (isPrime(input) == true) {
+			if (isPrime(input)) {
 				System.out.println("The number is prime.");
 			} else {
 				System.out.println("The number is not prime.");
@@ -56,9 +56,6 @@ public class CheckPrime {
 				factor++;
 			}
 		}
-		if (factor == 2) {
-			return true;
-		}
-		return false;
+		return (factor == 2);
 	}
 }
