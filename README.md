@@ -40,7 +40,7 @@ Go to the [Eclipse website](https://www.eclipse.org/downloads/) and download the
 3) Right click on your project in the left pane, choose 'New', and select 'Class'. Name it 'Main'.
 4) Click 'Finish' and you're done! You can now do all of the examples in this repository!
 
-#### Other way to work with java without using IDE
+### Other way to work with java without using IDE
 1.Download java jdk from the website install it in the host machine and install the path.
 2.Download a text editor(Sublime,Atom,etc) and start writing the code.
 3.open terminal go to the folder where your java code is saved and compile the file using the command javac classname.java.
