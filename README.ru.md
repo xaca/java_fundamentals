@@ -1,5 +1,5 @@
 # Основы Java
-В этом курсе вы узнаете основы языка №1 в мире. * Java * 
+В этом курсе вы узнаете основы языка №1 в мире. *Java* 
 изучается как вводный язык в курсах CS во всем мире. Вы будете среди студентов CS 
 из лучших университетов.
 
@@ -24,7 +24,7 @@
 18. Подробнее о Струны
 19. бух
 
-[![Curso de programación básica en JAVA](https://img.youtube.com/vi/Ztr7_sNmSQI/0.jpg)]
+[![Curso de programación básica en JAVA](https://img.youtube.com/vi/Ztr7_sNmSQI/0.jpg)](https://www.youtube.com/watch?v=Ztr7_sNmSQI&list=PLQ1ShaTNqthL1w5LSw5l7CbjCu5xiKQsA)
 
 ## Как установить IDE
 Во-первых, что такое IDE? IDE (интегрированная среда разработки) - это место, 
