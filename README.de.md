@@ -47,5 +47,5 @@ Nenne die Klasse 'Main'.
 2. Lade einen Text Editor herunter (z.b Sublime, Atom, etc) und schreibe deinen Java Quelltext.
 3. Öffne nun eine Konsole und navigiere in das Verzeichnis wo sich dein Java Code befindet. Benutze das 'javac' Kommando um die .java Datei zu kompilieren. 
 4. Nach erfolgreicher Kompilierung wird eine (Dateiname).class Datei erstellt.
-5. Der nächste Schritt ist die .class Datei mit Hilfe der Konsole auszuführen. Das Kommando dafür ist 'java + Dateiname' 
-6. Boom! Nun siehst du die Ausgaben deines Programms!
+5. Der nächste Schritt ist die .class Datei mit Hilfe der Konsole auszuführen. Das Kommando dafür ist 'java + Dateiname'. 
+6. Boom! Nun siehst du die Ausgaben deines Programmes!
