@@ -13,9 +13,9 @@
  23
  29
  */
-class prime{
+class Prime{
   int i;
-  prime(int a){
+  Prime(int a){
     for(i=2;i<=a;i++){
       int counter=0;
       for(int b=1;b<=i;b++){
@@ -30,10 +30,10 @@ class prime{
   }
 
 }
-class listAllPrime{
+class ListAllPrime{
   public static void main(String args[]){
     int m;
     m=Integer.parseInt(args[0]);
-    prime p=new prime(m);
+    Prime p=new Prime(m);
   }
 }
