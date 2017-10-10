@@ -39,4 +39,13 @@ Besuche die [Eclipse Webseite](https://www.eclipse.org/downloads/) und lade dir 
 2. Klicke **Datei** -> **Neu** -> **Java Projekt**. Gebe dann einen Namen für dein Projekt ein und drücke **Fertig**.
 3. Rechtsklicke auf dein Projekt, welches im linken Verzeichnisbaum angezeigt wird. Wähle dann **Neu** und drücke **Klasse**.
 Nenne die Klasse 'Main'.
-4. Klicke nun auf **Fertig.** Nun hast du es geschafft! Du kannst jetzt mit allen Beispielen in diesem Repository arbeiten.
+4. Klicke nun auf **Fertig.** Jetzt hast du es geschafft! Du kannst jetzt mit allen Beispielen in diesem Repository arbeiten.
+
+
+### Möglichkeiten auch ohne IDE mit Java zu arbeiten
+1. Lade dir die Java JDK herunter und installiere es auf deinem PC. 
+2. Lade einen Text Editor herunter (z.b Sublime, Atom, etc) und schreibe deinen Java Quelltext.
+3. Öffne nun eine Konsole und navigiere in das Verzeichnis wo sich dein Java Code befindet. Benutze das 'javac' Kommando um die .java Datei zu kompilieren. 
+4. Nach erfolgreicher Kompilierung wird eine (Dateiname).class Datei erstellt.
+5. Der nächste Schritt ist die .class Datei mit Hilfe der Konsole auszuführen. Das Kommando dafür ist 'java + Dateiname'. 
+6. Boom! Nun siehst du die Ausgaben deines Programmes!
