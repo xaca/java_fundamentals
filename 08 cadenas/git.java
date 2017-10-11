@@ -21,6 +21,7 @@ import java.util.Scanner;
 import java.util.Vector;
 
 /**
+ * A class to return the number of pokemon that are left to capture.
  *
  * @author domiflorzinha
  */
@@ -44,9 +45,7 @@ public class Git {
          System.out.print("Missing ");
          System.out.print(151-v.size());
          System.out.print(" Pokemons\n");
-         
 
-    
     }
     
 }
