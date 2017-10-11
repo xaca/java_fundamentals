@@ -1,7 +1,19 @@
-  /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Since it was officially released Pomekon in Brazil, Dabriel is trying to realize his biggest dream:
+ * Being a Pokemon Master. His goal is to capture the 151 Pomekon available. He managed to capture many monsters,
+ * but in his city appear many repeated Pomekons, causing he to capture several times the same Pomekon.
+ *
+ * Seeing that his bag is pretty full, Dabriel asked you to do a computer program to inform him how many Pomekons are
+ * missing to complete the collection.
+ *
+ * Input
+ * The first line of the test case consists of an integer N (1 ≤ N ≤ 10³), representing the amount of Pomekons
+ * that Dabriel already captured.
+ * The next N lines consists of a string S (1 ≤ |S| ≤ 10³) representing the name of each Pomekon. The name of each
+ * Pomekon consists only of uppercase and lowercase letters.
+ *
+ * Output
+ * You should print: "Missing X Pokemons.", where X is the amount Pomekons not captured
  */
 package git;
 
