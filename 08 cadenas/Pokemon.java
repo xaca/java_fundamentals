@@ -25,7 +25,7 @@ import java.util.Vector;
  *
  * @author domiflorzinha
  */
-public class Git {
+public class Pokemon {
 
     /**
      * @param args the command line arguments
