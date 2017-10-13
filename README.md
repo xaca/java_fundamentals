@@ -42,8 +42,8 @@ Go to the [Eclipse website](https://www.eclipse.org/downloads/) and download the
 
 ### Other way to work with java without using IDE
 1. Download java jdk from the website install it in the host machine and install the path.
-2. Download a text editor(Sublime,Atom,etc) and start writing the code.
+2. Download a text editor (Sublime, Atom, etc) and start writing the code.
 3. Open terminal go to the folder where your java code is saved and compile the file using the command javac classname.java.
-4. After succesfully compiling the code java will create a class file with name classname.class.
+4. After successfully compiling the code java will create a class file with name classname.class.
 5. Next step is to execute the file in the terminal,command for executing is java classname.
 6. Boom!! there is your output "Hello world!".
