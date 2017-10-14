@@ -6,7 +6,7 @@ public class CondicionalesMedio {
 	public static void main(String[] args) {
 		int numero;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Escribe un numero: ")
+		System.out.println("Escribe un numero: ");
 		numero = scanner.nextInt();
 		
 		/**
