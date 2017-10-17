@@ -1,0 +1,8 @@
+
+public class NamasteDuniya {
+	public static void main(String args[])
+	{
+		// Latin 
+		System.out.println("Salve Mundi!");
+	}
+} 
