@@ -1,49 +1,49 @@
-# Fundamentals of Java
-In this course, you will learn the basics of the #1 language in the world. *Java* is taught as an introductory language in CS courses all over the world. You will be among CS students from the best universities.
+# Fondamentaux de Java
+Dans cette leçon, vous apprendrez la base du langage numéro un dans le monde. *Java* est enseigné comme langage d'introduction dans les cours d'informatique partout dans le monde. Vous serez ainsi au côté des élèves d'informatique des meilleures universités.
 
-## Sections
+## Plan
 1. Introduction
-2. Algorithms
-3. Conditional Statements
+2. Algorithmes
+3. Instructions conditionelles
 4. Switch/Case
-5. Loops
-6. Arrays
-7. Matrix
-8. Strings
-10. Functions/Methods
-11. Black Box
-12. White Box
-13. Input/Output
-14. Passing by value
-15. Passing by reference
-16. Fibonacci's Sequence
-17. Prime Numbers
-18. Magic Matrix
-19. More about Strings
-20. Pow
+5. Boucles
+6. Tableaux
+7. Matrices
+8. Chaînes de caractères
+10. Fonctions/méthodes
+11. Boîte noire
+12. Boîte blanche
+13. Entrées/sorties
+14. Passage par valeur
+15. Passage par référence
+16. La séquence de Fibonacci
+17. Nombres Premiers
+18. Matrice Magique
+19. Plus sur les chaînes de caractères
+20. Carré
 
 [![Curso de programación básica en JAVA](https://img.youtube.com/vi/Ztr7_sNmSQI/0.jpg)](https://www.youtube.com/watch?v=Ztr7_sNmSQI&list=PLQ1ShaTNqthL1w5LSw5l7CbjCu5xiKQsA)
 
-## How to install an IDE
-First off, what is an IDE? An IDE (Integrated Development Environment) is a place for coders to change the code of the program they're working on. From the tiniest of projects to the largest you will need an IDE, which one you choose is up to you. For this tutorial we will be using [Eclipse](https://www.eclipse.org), but there are plenty of other choices.
+## Comment installer un IDE
+Pour commencer, qu'est-ce qu'un IDE? Un IDE (EDI en français, Environment de Développement Intégré) est un endroit où les programmeurs changent le code du programme sur lequel ils travaillent. Du plus petit projet au plus grand, vous aurez besoin d'un IDE. Vous pouvez choisir celui que vous préférez, dans ce tutoriel nous utiliserons [Eclipse](https://www.eclipse.org), mais il y a beaucoup d'autres choix.
 
-### Download the IDE
-Go to the [Eclipse website](https://www.eclipse.org/downloads/) and download the latest version of Eclipse. Currently, it is Eclipse Oxygen.
+### Télécharger l'IDE
+Rendez-vous sur le [site internet d'Eclipse](https://www.eclipse.org/downloads/) et téléchargez la dernière version d'Eclipse. À cet instant, c'est Eclipse Oxygen.
 
-### Run through the setup
-1. Click "Eclipse IDE for Java Developers". This will install the IDE, a git (version control) client, and a couple of other editors for advanced Java development.
-2. Change the install path (if you want to), click install, then accept the terms and conditions.
+### Installez-le
+1. Cliquez sur "Eclipse IDE for Java Developers". Cela va installer l'IDE, un client Git (contrôle de version), et quelques autres éditeurs pour le développement Java avancé.
+2. Changez le chemin d'installation (si vous le désirez), cliquez sur "install", et acceptez les conditions d'utilisations.
 
-### Open Eclipse
-1. Launch Eclipse. Click 'Launch' when the program asks about a directory for the workspace.
-2. Click 'File' -> 'New' -> 'Java Project'. Enter a name for your project, and click 'Finish'.
-3. Right click on your project in the left pane, choose 'New', and select 'Class'. Name it 'Main'.
-4. Click 'Finish' and you're done! You can now do all of the examples in this repository!
+### Ouvrez Eclipse
+1. Démarrez Eclipse. Cliquez sur 'Launch' quand le programme vous demande un dossier pour le *workspace*.
+2. Cliquez 'File' -> 'New' -> 'Java Project'. Entrez un nom pour votre projet, et cliquez sur 'Finish.
+3. Cliquez avec le bouton droit sur votre projet dans le panneau de gauche, choisissez 'New' et sélectionnez 'Class'. Appelez-la 'Main'.
+4. Cliquez sur 'Finish' et vous étes prêt ! Vous pouvez maintenant suivre tous les exemples de ce dépôt !
 
-### Other way to work with java without using IDE
-1. Download java jdk from the website install it in the host machine and install the path.
-2. Download a text editor (Sublime, Atom, etc) and start writing the code.
-3. Open terminal go to the folder where your java code is saved and compile the file using the command javac classname.java.
-4. After successfully compiling the code java will create a class file with name classname.class.
-5. Next step is to execute the file in the terminal,command for executing is java classname.
-6. Boom!! there is your output "Hello world!".
+### Autres façon de travailler avec Java sans se servir d'un IDE
+1. Téléchargez le Java JDK depuis le site internet, installez-le et ajustez votre `path`.
+2. Téléchargez un éditeur de texte (Sublime, Atom, etc) et commencez à écrire le code.
+3. Ouvrez un terminal, allez dans le dossier où votre code Java est enregistré et compilez le fichier en utilisant la commande `javac nomdeclasse.java`.
+4. Après avoir compilé sans erreur, Java va créer un fichier avec le nom `nomdeclasse.class`.
+5. La prochaine étape est d'éxécuter le fichier dans le terminal, la commande est `java nomdeclass`.
+6. Et pan ! Voila votre message "Hello world!".
