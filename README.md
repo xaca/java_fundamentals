@@ -1,49 +1,49 @@
-# Fundamentals of Java
-In this course, you will learn the basics of the #1 language in the world. *Java* is taught as an introductory language in CS courses all over the world. You will be among CS students from the best universities.
+# Βασικά στοιχεία της Java
+Σε αυτό το μάθημα, θα μάθετε τα βασικά της # 1 γλώσσας στον κόσμο. * Το Java * διδάσκεται ως εισαγωγική γλώσσα σε μαθήματα CS σε όλο τον κόσμο. Θα είστε μεταξύ των φοιτητών της CS από τα καλύτερα πανεπιστήμια.
 
-## Sections
-1. Introduction
-2. Algorithms
-3. Conditional Statements
-4. Switch/Case
-5. Loops
+## Τμήματα
+1. Εισαγωγή
+2. Αλγόριθμοι
+3. Υποχρεωτικές δηλώσεις
+4. Διακόπτης / Θήκη
+5. Βρόχοι
 6. Arrays
 7. Matrix
-8. Strings
-10. Functions/Methods
-11. Black Box
-12. White Box
-13. Input/Output
-14. Passing by value
-15. Passing by reference
-16. Fibonacci's Sequence
-17. Prime Numbers
+8. Χορδές
+10. Λειτουργίες / Μέθοδοι
+11. Μαύρο κουτί
+12. Λευκό κουτί
+13. Είσοδος / Έξοδος
+14. Μετάβαση από την αξία
+15. Περάστε με παραπομπή
+16. Ακολουθία του Fibonacci
+17. Πρωταρχικούς Αριθμούς
 18. Magic Matrix
-19. More about Strings
+19. Περισσότερα για τις χορδές
 20. Pow
 
-[![Curso de programación básica en JAVA](https://img.youtube.com/vi/Ztr7_sNmSQI/0.jpg)](https://www.youtube.com/watch?v=Ztr7_sNmSQI&list=PLQ1ShaTNqthL1w5LSw5l7CbjCu5xiKQsA)
+[! Curso de programmación básica en JAVA] (https://img.youtube.com/vi/Ztr7_sNmSQI/0.jpg)] (https://www.youtube.com/watch?v=Ztr7_sNmSQI&list=PLQ1ShaTNqthL1w5LSw5l7CbjCu5xiKQsA)
 
-## How to install an IDE
-First off, what is an IDE? An IDE (Integrated Development Environment) is a place for coders to change the code of the program they're working on. From the tiniest of projects to the largest you will need an IDE, which one you choose is up to you. For this tutorial we will be using [Eclipse](https://www.eclipse.org), but there are plenty of other choices.
+Πώς να εγκαταστήσετε ένα IDE
+Πρώτα απ 'όλα, τι είναι ένας IDE; Ένα IDE (Integrated Development Environment) είναι ένας χώρος για τους κωδικοποιητές να αλλάξουν τον κώδικα του προγράμματος στο οποίο εργάζονται. Από τα πιο μικρά έργα μέχρι τα μεγαλύτερα θα χρειαστείτε ένα IDE, το οποίο εσείς επιλέγετε εξαρτάται από εσάς. Για αυτό το σεμινάριο θα χρησιμοποιήσουμε το [Eclipse] (https://www.eclipse.org), αλλά υπάρχουν πολλές άλλες επιλογές.
 
-### Download the IDE
-Go to the [Eclipse website](https://www.eclipse.org/downloads/) and download the latest version of Eclipse. Currently, it is Eclipse Oxygen.
+### Κατεβάστε το IDE
+Μεταβείτε στην τοποθεσία [Eclipse website] (https://www.eclipse.org/downloads/) και κατεβάστε την τελευταία έκδοση του Eclipse. Επί του παρόντος, είναι Eclipse Oxygen.
 
-### Run through the setup
-1. Click "Eclipse IDE for Java Developers". This will install the IDE, a git (version control) client, and a couple of other editors for advanced Java development.
-2. Change the install path (if you want to), click install, then accept the terms and conditions.
+### Εκτελέστε την εγκατάσταση
+1. Κάντε κλικ στην επιλογή "Eclipse IDE for Developers Java". Αυτό θα εγκαταστήσει το IDE, έναν πελάτη git (έλεγχος έκδοσης) και μερικούς άλλους επεξεργαστές για την ανάπτυξη προηγμένης τεχνολογίας Java.
+2. Αλλάξτε τη διαδρομή εγκατάστασης (αν θέλετε), κάντε κλικ στην εγκατάσταση και, στη συνέχεια, αποδεχτείτε τους όρους και τις προϋποθέσεις.
 
-### Open Eclipse
-1. Launch Eclipse. Click 'Launch' when the program asks about a directory for the workspace.
-2. Click 'File' -> 'New' -> 'Java Project'. Enter a name for your project, and click 'Finish'.
-3. Right click on your project in the left pane, choose 'New', and select 'Class'. Name it 'Main'.
-4. Click 'Finish' and you're done! You can now do all of the examples in this repository!
+### Ανοίξτε το Eclipse
+1. Ξεκινήστε το Eclipse. Κάντε κλικ στο κουμπί "Εκκίνηση" όταν το πρόγραμμα ρωτά για έναν κατάλογο για τον χώρο εργασίας.
+2. Κάντε κλικ στο 'Αρχείο' -> 'Νέο' -> 'Java Project'. Καταχωρίστε ένα όνομα για το έργο σας και κάντε κλικ στο κουμπί "Τέλος".
+3. Κάντε δεξί κλικ στο έργο σας στο αριστερό παράθυρο, επιλέξτε 'Νέο' και επιλέξτε 'Τάξη'. Ονομάστε το "Κύριο".
+4. Κάντε κλικ στο κουμπί 'Τέλος' και τελειώσατε! Τώρα μπορείτε να κάνετε όλα τα παραδείγματα σε αυτό το αποθετήριο!
 
-### Other way to work with java without using IDE
-1. Download java jdk from the website install it in the host machine and install the path.
-2. Download a text editor (Sublime, Atom, etc) and start writing the code.
-3. Open terminal go to the folder where your java code is saved and compile the file using the command javac classname.java.
-4. After successfully compiling the code java will create a class file with name classname.class.
-5. Next step is to execute the file in the terminal,command for executing is java classname.
-6. Boom!! there is your output "Hello world!".
+### Άλλος τρόπος εργασίας με τη java χωρίς χρήση IDE
+1. Κατεβάστε το java jdk από τον ιστότοπο, εγκαταστήστε το στο μηχάνημα υποδοχής και εγκαταστήστε τη διαδρομή.
+2. Κατεβάστε έναν επεξεργαστή κειμένου (Sublime, Atom, κλπ) και αρχίστε να γράφετε τον κώδικα.
+3. Ανοίξτε το τερματικό πηγαίνετε στο φάκελο όπου αποθηκεύεται ο κωδικός java και μεταγλωττίσετε το αρχείο χρησιμοποιώντας την εντολή javac classname.java.
+4. Μετά την επιτυχή κατάρτιση του κώδικα, η java θα δημιουργήσει ένα αρχείο κατηγορίας με όνομα classname.class.
+5. Το επόμενο βήμα είναι να εκτελέσετε το αρχείο στο τερματικό, η εντολή για εκτέλεση είναι java classname.
+6. Boom !! υπάρχει η παραγωγή σας "Hello world!".
