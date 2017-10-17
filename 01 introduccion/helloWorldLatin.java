@@ -1,5 +1,5 @@
 
-public class NamasteDuniya {
+public class helloWorldLatin {
 	public static void main(String args[])
 	{
 		// Latin 
