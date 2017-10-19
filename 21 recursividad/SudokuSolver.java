@@ -9,6 +9,9 @@ public class SudokuSolver {
 	
     public static void main(String[] args) {
     	int[][] sudoku = readFromFile("sudoku1.txt");
+	/*File structure is a txt with 9 lines in each line you'll finde 9 characters separated by comma.
+	  Characters will be or 1-9 represents that value in the sudoku game or a 'x' represents an empty space to fill*/    
+	    
     	System.out.print("Working with the following sudoku");
     	
     	printSudoku(sudoku);
