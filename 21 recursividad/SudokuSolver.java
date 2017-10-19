@@ -8,7 +8,7 @@ public class SudokuSolver {
 	private static Boolean solutionFound = false;
 	
     public static void main(String[] args) {
-    	int[][] sudoku = readFromFile("files/sudoku1.txt");
+    	int[][] sudoku = readFromFile("sudoku1.txt");
     	System.out.print("Working with the following sudoku");
     	
     	printSudoku(sudoku);
