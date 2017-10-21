@@ -1,14 +1,6 @@
 // Recursive Java program to count number of nodes in 
 // a linked list
  
-/* Linked list Node*/
-class Node
-{
-    int data;
-    Node next;
-    Node(int d)  { data = d;  next = null; }
-}
- 
 // Linked List class
 class LLCountNodes
 {
@@ -44,7 +36,16 @@ class LLCountNodes
     {
         return getCountRec(head);
     }
- 
+
+    /* Linked list Node*/
+    class Node
+    {
+        int data;
+        Node next;
+        Node(int d)  { data = d;  next = null; }
+    }
+
+
     /* Drier program to test above functions. Ideally
        this function should be in a separate user class.
        It is kept here to keep code compact */
