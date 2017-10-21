@@ -1,5 +1,5 @@
 
-public class Main {
+public class String_Challenges {
 
 	public static void main(String[] args) {
 		// 1. Replace string in a text with another string using StringBuffer

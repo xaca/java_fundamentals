@@ -1,4 +1,4 @@
-public class solution {
+public class keypad {
 
 	/*
     Given an integer n, using alpha-numeric keypad return all strings that can be made using digits of n
