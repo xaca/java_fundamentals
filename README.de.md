@@ -1,5 +1,5 @@
 # Grundlagen von Java
-In diesem Kurs werden die Grundlagen der Nummer 1 Programmiersprache der Welt gelehrt. Java wird als Einführungssprache in Informatikkursen rund um die Welt unterrichtet. Du wirst unter Informatik Schülern von den besten Universitäten sein.
+In diesem Kurs werden die Grundlagen der weltweiten Nummer 1 Programmiersprache gelehrt. Java wird als Einführungssprache in Informatikkursen rund um die Welt unterrichtet. Du wirst ein Informatikstudent unter den der besten Unitversitäten gehören.
 
 ## Themen
 1. Einleitung
@@ -25,7 +25,7 @@ In diesem Kurs werden die Grundlagen der Nummer 1 Programmiersprache der Welt ge
 [![Programmierkurs Java](https://img.youtube.com/vi/Ztr7_sNmSQI/0.jpg)](https://www.youtube.com/watch?v=Ztr7_sNmSQI&list=PLQ1ShaTNqthL1w5LSw5l7CbjCu5xiKQsA)
 
 ## Installation einer Entwicklungsumgebung (IDE)
-Zuallererst stellt sich die Frage, was überhaupt eine Entwicklungsumgebung (IDE) ist? Eine IDE (Integrated Development Environment) ist ein Programm mit dessen Hilfe der Benutzer seinen geschriebenen Quelltext bearbeiten kann. Egal ob die Projekte, die du bearbeitest sehr klein oder extrem groß sind, eine IDE wirst du benötigen. Welche du letztendlich für dein Projekt benutzen möchtest, ist dir aber selbst überlassen. Für dieses Tutorial werden wir [Eclipse](https://www.eclipse.org) benutzen, aber es gibt noch diverse andere.
+Zuallererst stellt sich die Frage, was überhaupt eine Entwicklungsumgebung (IDE) ist? Eine IDE (Integrated Development Environment) ist ein Programm, mit dessen Hilfe der Benutzer seinen geschriebenen Quelltext bearbeiten kann. Egal, ob die Projekte, die du bearbeitest sehr klein oder extrem groß sind, eine IDE wirst du benötigen. Welche du letztendlich für dein Projekt benutzen möchtest, ist dir aber selbst überlassen. Für dieses Tutorial werden wir [Eclipse](https://www.eclipse.org) benutzen, aber es gibt noch diverse andere.
 
 ### Herunterladen von Eclipse
 Besuche die [Eclipse Webseite](https://www.eclipse.org/downloads/) und lade dir die neuste Version von Eclipse herunter. Aktuell ist dies die Oxygen Version.
@@ -45,7 +45,7 @@ Nenne die Klasse 'Main'.
 ### Möglichkeiten auch ohne IDE mit Java zu arbeiten
 1. Lade dir die Java JDK herunter und installiere es auf deinem PC. 
 2. Lade einen Text Editor herunter (z.b Sublime, Atom, etc) und schreibe deinen Java Quelltext.
-3. Öffne nun eine Konsole und navigiere in das Verzeichnis wo sich dein Java Code befindet. Benutze das 'javac' Kommando um die .java Datei zu kompilieren. 
+3. Öffne nun eine Konsole und navigiere in das Verzeichnis, in dem sich dein Java Code befindet. Benutze das 'javac' Kommando, um die .java Datei zu kompilieren. 
 4. Nach erfolgreicher Kompilierung wird eine (Dateiname).class Datei erstellt.
 5. Der nächste Schritt ist die .class Datei mit Hilfe der Konsole auszuführen. Das Kommando dafür ist 'java + Dateiname'. 
 6. Boom! Nun siehst du die Ausgaben deines Programmes!
