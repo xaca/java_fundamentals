@@ -47,3 +47,10 @@ Go to the [Eclipse website](https://www.eclipse.org/downloads/) and download the
 4. After successfully compiling the code java will create a class file with name classname.class.
 5. Next step is to execute the file in the terminal,command for executing is java classname.
 6. Boom!! there is your output "Hello world!".
+
+### Working with Maven
+1. Download Maven (3+) from http://maven.apache.org
+2. Unpack the folder and add the /bin directory to your PATH variable (http://www.baeldung.com/install-maven-on-windows-linux-mac)
+3. Open the terminal and go to the project folder
+4. Run 'mvn test' to run all the tests and verify everything is still working.
+

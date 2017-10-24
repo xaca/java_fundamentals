@@ -1,0 +1,27 @@
+ <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+      <groupId>holamundo.co</groupId>
+      <artifactId>java-fundamentals</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </parent>
+    
+    <!-- We don't have to specify the groupId or version, since this is by default inherited from the <parent> block. -->
+    <artifactId>java-fundamentals-fibonacci</artifactId>
+    <packaging>jar</packaging>
+    <name>Java fundamentals: Fibonacci</name>
+    <url>http://www.holamundo.co</url>
+    
+    <dependencies>
+      <!--
+      We don't have to specify a version or a scope, since this is already been done in the parent project (see the parent block)!
+      -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
