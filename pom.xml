@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>holamundo.co</groupId>
+    <artifactId>java-fundamentals</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>Java fundamentals</name>
+    <url>http://www.holamundo.co</url>
+    
+    <!-- 
+      This block defines the 'subprojects' of java-fundamentals. If a Maven command is executed (such as 'mvn test') it is also ran across all modules defined here.
+    -->
+    <modules>
+        <module>16 fibonacci</module>
+    </modules>
+    
+    <!-- 
+      Set the Java build version to 1.8
+    -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    
+    <!-- 
+      Dependencies defined here can be referred to in other projects, just by the groupId and artifactId. The version and scope are inherited from this file. Neat, huh?
+    -->
+    <dependencyManagement>
+      <dependencies>
+        <!-- 
+          JUnit is a popular library used to test code
+        -->
+        <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.12</version>
+          <scope>test</scope>
+        </dependency>
+      </dependencies>
+    </dependencyManagement>
+
+
+    <build>
+        <plugins>
+            <!--
+                Override the defaults of this plugin, so we can write System.out.println to the console
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.20</version>
+                <configuration>
+                    <useFile>true</useFile>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
