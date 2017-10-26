@@ -13,6 +13,7 @@
     -->
     <modules>
         <module>16 fibonacci</module>
+        <module>17 primos</module>
     </modules>
     
     <!-- 
