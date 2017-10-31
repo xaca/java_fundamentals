@@ -26,7 +26,7 @@ class GoldbachConjecture {
     /**
      * Find one of the goldbach primes of p
      */
-    private static int goldbach(int p) {
+    public static int goldbach(int p) {
         if (p<=2 || p%2!=0) {
             System.err.println(p+" is not a even greater than 2");
             return -1;
@@ -40,26 +40,6 @@ class GoldbachConjecture {
         }    
         return goldbach;
     }
-
-
-
-    /**
-     * Obtain the goldbach decomposition if many even numbers
-     */
-    public static void main(String[] args) {
-        System.out.println("Search goldbach pairs for 10 random even numbers");
-        int p;
-        for(int i=0; i<10; i++) {
-            // Make sure p is a random even number
-            do {
-                p = (int) (Math.random()*Integer.MAX_VALUE);
-            } while(p % 2 != 0);
-            int g = goldbach(p);
-            System.out.println(p+" = "+g+" + "+(p-g));
-        }
-        
-    }
-
 }
 
 

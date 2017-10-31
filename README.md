@@ -51,7 +51,7 @@ Go to the [Eclipse website](https://www.eclipse.org/downloads/) and download the
 ## Maven
 Maven is a way to simplify the way projects are build. Where the earlier projects only contain a few Java files, Maven is capable of handling the full lifecycle (downloading third party software, compilation, testing, updating documentation), which would be a real error-prone chore to do by hand (can you imagine running thousands of tests by hand using main() methods?). This can be done inside an IDE or through a terminal using 'mvn <cmd>'. See 'Working with Maven' below for a few examples relevant to this repository. But note that Mavens capabilities go way beyond what is required in this repository.
 
-At the time of writing, chapter 16 has Maven incorporated, which can be recognized by the 'pom.xml' in these projects. They both refer to the 'pom.xml' in the root of this repository as their parent. This is used to share information between multiple projects, while only defining it once (in the parent). The other way around, the parent refers to the chapter 16 and 17 projects as submodules. This means that whatever task Maven is given, it will also execute it on all its submodules.
+At the time of writing, chapter 16 and 17 has Maven incorporated, which can be recognized by the 'pom.xml' in these projects. They both refer to the 'pom.xml' in the root of this repository as their parent. This is used to share information between multiple projects, while only defining it once (in the parent). The other way around, the parent refers to the chapter 16 and 17 projects as submodules. This means that whatever task Maven is given, it will also execute it on all its submodules.
 
 Sources:
 * https://maven.apache.org/what-is-maven.html
