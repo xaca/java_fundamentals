@@ -39,13 +39,4 @@ public class CalculatePrimes {
         
         return primes;
     }
-	
-    public static void main(String args[]) {
-    	// It might be better to use ArrayList instead of arrays
-    	// to prevent resize of this array.
-        int[] values = new int[10];
-
-        values = findPrimes(20);
-        System.out.println( Arrays.toString(values));
-    }
 }

@@ -16,18 +16,4 @@ public class Primos{
 
 		return (divisores==2);
 	}
-
-	public static void main(String[] args) {
-		
-		int n = 35, m = 2024;
-
-		for (int i=n;i<=m ;i++ ) {
-			
-			if(esPrimo(i))
-			{
-				System.out.println(i);
-			}
-		}
-
-	}
 }

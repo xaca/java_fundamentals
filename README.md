@@ -48,6 +48,15 @@ Go to the [Eclipse website](https://www.eclipse.org/downloads/) and download the
 5. Next step is to execute the file in the terminal,command for executing is java classname.
 6. Boom!! there is your output "Hello world!".
 
+## Maven
+Maven is a way to simplify the way projects are build. Where the earlier projects only contain a few Java files, Maven is capable of handling the full lifecycle (downloading third party software, compilation, testing, updating documentation), which would be a real error-prone chore to do by hand (can you imagine running thousands of tests by hand using main() methods?). This can be done inside an IDE or through a terminal using 'mvn <cmd>'. See 'Working with Maven' below for a few examples relevant to this repository. But note that Mavens capabilities go way beyond what is required in this repository.
+
+At the time of writing, chapter 16 and 17 has Maven incorporated, which can be recognized by the 'pom.xml' in these projects. They both refer to the 'pom.xml' in the root of this repository as their parent. This is used to share information between multiple projects, while only defining it once (in the parent). The other way around, the parent refers to the chapter 16 and 17 projects as submodules. This means that whatever task Maven is given, it will also execute it on all its submodules.
+
+Sources:
+* https://maven.apache.org/what-is-maven.html
+* https://maven.apache.org/guides/getting-started/
+
 ### Working with Maven
 1. Download Maven (3+) from http://maven.apache.org
 2. Unpack the folder and add the /bin directory to your PATH variable (http://www.baeldung.com/install-maven-on-windows-linux-mac)
