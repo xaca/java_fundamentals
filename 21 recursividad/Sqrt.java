@@ -11,7 +11,7 @@ public class Sqrt {
         if (x == 0)
             return 0;
         if (x < 0)
-            return (-sqrt3(-x, nth));
+            return (-sqrtn(-x, nth));
         return Math.exp((Math.log(x) / nth));
     }
 }
