@@ -6,7 +6,27 @@
       <artifactId>java-fundamentals</artifactId>
       <version>1.0-SNAPSHOT</version>
     </parent>
-    
+
+	<!-- Plugin to be able to build an executable jar file -->
+	<build>
+	   <plugins>
+	       <plugin>
+		       <groupId>org.apache.maven.plugins</groupId>
+		  	   <artifactId>maven-jar-plugin</artifactId>
+		  	   <version>3.1.0</version>
+		  	   <configuration>
+			       <archive>
+			  	       <manifest>
+				 	       <addClasspath>true</addClasspath>
+				 		   <classpathPrefix>lib/</classpathPrefix>
+				 		   <mainClass>Fibonacci</mainClass>
+			   		   </manifest>
+			 	   </archive>
+		   	   </configuration>
+	       </plugin>
+	   </plugins>
+	</build>
+
     <!-- We don't have to specify the groupId or version, since this is by default inherited from the <parent> block. -->
     <artifactId>java-fundamentals-fibonacci</artifactId>
     <packaging>jar</packaging>
