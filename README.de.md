@@ -49,3 +49,46 @@ Nenne die Klasse 'Main'.
 4. Nach erfolgreicher Kompilierung wird eine (Dateiname).class Datei erstellt.
 5. Der nächste Schritt ist die .class Datei mit Hilfe der Konsole auszuführen. Das Kommando dafür ist 'java + Dateiname'. 
 6. Boom! Nun siehst du die Ausgaben deines Programmes!
+
+## Maven
+
+Maven ist ein Weg um das Erstellen von Java Projekten zu erleichtern.
+Während die früheren Projekte nur ein Paar Java Dateien enthalten haben, ist
+Maven in der Lage den kompletten Lebenszyklus abzubilden: 
+
+* Downloaden von 3rd Party Software
+* Compilieren
+* Testing
+* Aktualisieren von Dokumentation
+
+Diese Punkte manuell durchzuführen wäre sehr Fehleranfällig.
+Dies alles kann von Maven abgearbeitet werden, entweder durch die Verwendung eines Terminals
+und den "mvn" Befehlen oder über eine IDE mit Maven Support, mit welcher man diese 
+Befehle ebenfalls ausführen kann.
+Siehe weiter unten "Mit Maven arbeiten" für einige Beispiele, welche relevant zu diesem
+Repository sind. Hinweis: Maven bietet weit mehr Funktionalität als was für dieses Projekt
+benötigt wird.
+
+Zum Zeitpunkt des Schreibens ist Maven in Kapitel 16 und 17 integriert. Dies
+kann man daran erkennen das sich eine sogenannte "pom.xml" Datei in diesen
+Verzeichnissen befindet. Diese wird verwendet um Informationen zwischen mehreren
+Projekten zu teilen, während es nur einmal im Root-Verzeichnis definiert werden
+muss. 
+Kapitel 16 und 17 werden wiederum als Sub-Modul in der "pom.xml" aus dem
+Root-Verzeichnis angegeben. Das bedeutet das alle Maven Befehle auch für
+die jeweiligen Sub-Module ausgeführt werden (In dem Fall für Kapitel 16 und
+17).
+
+Quellen:
+* https://maven.apache.org/what-is-maven.html
+* https://maven.apache.org/guides/getting-started/
+
+### Mit Maven arbeiten
+
+1. Downloade Maven (3+) von folgender Seite: http://maven.apache.org
+2. Entpacke das Archiv und füge das "bin" Verzeichnis zu deiner PATH
+   Umgebungsvariable hinzu (http://www.baeldung.com/install-maven-on-windows-linux-mac)
+3. Öffne ein Terminal and navigiere in dieses Projekt Verzeichnis
+4. Führe den Befehl "mvn test" aus um alle Tests auszuführen und um damit zu Verifizieren das alles
+   noch funktioniert
+
